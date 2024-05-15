@@ -1,0 +1,32 @@
+name: Daily Auto Commit
+
+on:
+  schedule:
+    - cron:  '5 0 * * *'  # Runs at 00:05 UTC, which is 7:05 AM +07
+
+jobs:
+  auto_commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+            fetch-depth: 0 # Ensures the entire history is pulled. This is crucial for later comparison.
+
+      - name: Check for changes
+        id: git_diff
+        run: echo "::set-output name=changes::$(git diff --quiet; echo $?)"
+
+      - name: Commit changes (if any)
+        if: steps.git_diff.outputs.changes == '1'
+        run: |
+          git config --global user.name 'BachNgoH'
+          git config --global user.email 'nlmbao2015@gmail.com'
+          git add .
+          git commit -m "Automated daily commit $(date +'%Y-%m-%d')"
+          git push
+
+      - name: No changes to commit
+        if: steps.git_diff.outputs.changes == '0'
+        run: echo "No changes detected. Skipping commit."
