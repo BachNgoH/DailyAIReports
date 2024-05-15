@@ -35,7 +35,7 @@ def monitor_directory(repo_path):
 
     try:
         while True:
-            time.sleep(1)
+            time.sleep(10000)
     except KeyboardInterrupt:
         observer.stop()
     observer.join()
