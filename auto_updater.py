@@ -11,7 +11,7 @@ class GitAutoCommitHandler(FileSystemEventHandler):
         self.commit_changes()
 
     def commit_changes(self):
-        # try:
+        try:
             # Add changes to staging
             subprocess.run(["git", "add", "."], cwd=self.repo_path, check=True)
             
@@ -23,8 +23,8 @@ class GitAutoCommitHandler(FileSystemEventHandler):
             subprocess.run(["git", "push"], cwd=self.repo_path, check=True)
             
             print(f"Changes committed and pushed with message: {commit_message}")
-        # except subprocess.CalledProcessError as e:
-        #     print(f"Error during Git operation: {e}")
+        except subprocess.CalledProcessError as e:
+            print(f"Error during Git operation: {e}")
 
 def monitor_directory(repo_path):
     event_handler = GitAutoCommitHandler(repo_path)
@@ -40,6 +40,6 @@ def monitor_directory(repo_path):
         observer.stop()
     observer.join()
 
-if __name__ == "__main__":
-    repo_path = "/media/gb2t/Data/DailyAIReports"  # Change this to your repository path
+if __name__ == "__main__": 
+    repo_path = "/media/gb2t/Data/DailyAIReports/daily_reports"  # Change this to your repository path
     monitor_directory(repo_path)
