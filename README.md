@@ -2,7 +2,7 @@
 ----------
 ### Week 05-27 -> 05-26 (2024)
 - [Report 2024-06-02](./daily_reports/daily_report_2024-06-02.md)
-- [Report 2024-06-01] 
+- [Report 2024-06-01]()
 - [Report 2024-05-31](./daily_reports/daily_report_2024-05-31.md)
 - [Report 2024-05-30](./daily_reports/daily_report_2024-05-30.md)
 - [Report 2024-05-29](./daily_reports/daily_report_2024-05-29.md)
