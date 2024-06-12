@@ -1,5 +1,26 @@
 # Repository consist of AI reports that update Daily
 ----------
+
+### Week 06-10 -> 06-16 (2024)
+- [Report 2024-06-16]()
+- [Report 2024-06-15]()
+- [Report 2024-06-14]()
+- [Report 2024-06-13]()
+- [Report 2024-06-12]()
+- [Report 2024-06-11](./daily_reports/0610_0616_2024/daily_report_2024-06-11.md)
+- [Report 2024-06-10](./daily_reports/0610_0616_2024/daily_report_2024-06-10.md)
+
+
+### Week 06-03 -> 06-09 (2024)
+- [Report 2024-06-09](./daily_reports/0603_0609_2024/daily_report_2024-06-09.md)
+- [Report 2024-06-08](./daily_reports/0603_0609_2024/daily_report_2024-06-08.md)
+- [Report 2024-06-07](./daily_reports/0603_0609_2024/daily_report_2024-06-07.md)
+- [Report 2024-06-06](./daily_reports/0603_0609_2024/daily_report_2024-06-06.md)
+- [Report 2024-06-05](./daily_reports/0603_0609_2024/daily_report_2024-06-05.md)
+- [Report 2024-06-04](./daily_reports/0603_0609_2024/daily_report_2024-06-04.md)
+- [Report 2024-06-03](./daily_reports/0603_0609_2024/daily_report_2024-06-03.md)
+
+
 ### Week 05-27 -> 06-02 (2024)
 - [Report 2024-06-02](./daily_reports/0527_0602_2024/daily_report_2024-06-02.md)
 - [Report 2024-06-01](./daily_reports/0527_0602_2024/daily_report_2024-06-01.md)
