@@ -1,9 +1,19 @@
 # Repository consist of AI reports that update Daily
 ----------
 
+### Week 06-17 -> 06-23 (2024)
+- [Report 2024-06-23]()
+- [Report 2024-06-22]()
+- [Report 2024-06-21]()
+- [Report 2024-06-20]()
+- [Report 2024-06-19](./daily_reports/0617_0623_2024/daily_report_2024-06-19.md)
+- [Report 2024-06-18](./daily_reports/0617_0623_2024/daily_report_2024-06-18.md)
+- [Report 2024-06-17](./daily_reports/0617_0623_2024/daily_report_2024-06-17.md)
+
+
 ### Week 06-10 -> 06-16 (2024)
-- [Report 2024-06-16]()
-- [Report 2024-06-15]()
+- [Report 2024-06-16](./daily_reports/0610_0616_2024/daily_report_2024-06-16.md)
+- [Report 2024-06-15](./daily_reports/0610_0616_2024/daily_report_2024-06-15.md)
 - [Report 2024-06-14]()
 - [Report 2024-06-13]()
 - [Report 2024-06-12]()
