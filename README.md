@@ -14,7 +14,7 @@
 ### Week 06-10 -> 06-16 (2024)
 - [Report 2024-06-16](./daily_reports/0610_0616_2024/daily_report_2024-06-16.md)
 - [Report 2024-06-15](./daily_reports/0610_0616_2024/daily_report_2024-06-15.md)
-- [Report 2024-06-14]()
+- [Report 2024-06-14](./daily_reports/0610_0616_2024/daily_report_2024-06-14.md)
 - [Report 2024-06-13]()
 - [Report 2024-06-12]()
 - [Report 2024-06-11](./daily_reports/0610_0616_2024/daily_report_2024-06-11.md)
